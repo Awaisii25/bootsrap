@@ -1,0 +1,239 @@
+:root{
+    --primary:rgb(55, 81, 126);
+     --animate:all 0.4s
+}
+
+main{
+    background-color: var(--primary);
+}
+.para{
+    color: var(--primary);
+}
+.haed{
+    font-size: 3.5rem;
+}
+.mani-img{
+    animation: move 2s linear infinite alternate-reverse;
+}
+@keyframes move{
+    from{
+       transform: translateY(0);
+    }to{
+          transform: translateY(-20px);
+    }
+}
+.brand{
+    filter: grayscale(100%);
+    transition: all 0.2s;
+}
+.brand:hover{
+    filter: grayscale(0);
+}
+.abt{
+    color: var(--primary);
+}
+.gray{
+    height: 3px ;
+    background-color: lightgray;
+    width: 10%;
+    margin: auto;
+    position: relative;
+}
+.blue{
+    width: 40%;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+@media(max-width:700px){
+    .hero{
+        margin: 20px;
+    }
+}
+.eum{
+    color: var(--primary);
+}
+.accordion-item h6:hover{
+    color:var(--primary);
+}
+.awa{
+    color: var(--primary);
+}
+
+.crd{
+    transition: all 1s;
+    cursor: pointer;
+}
+.crd:hover{
+    transform: translateY(-10px);
+    color: rgb(60, 60, 240);   
+}
+.bga{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url('https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg') fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+}
+.my-imgs{
+      overflow: hidden;
+      position: relative;
+}
+.gallery img{
+transition: all 1s;
+
+}
+
+.gallery img:hover{
+    scale: 1.2;
+    mk
+}
+.overly{
+    --primary: rgba(55, 81, 126, 0.6);
+    background-color: var(--primary);
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    opacity: 0;
+    transition: var(--animate);
+}
+.my-imgs:hover .overly{
+    opacity: 1;
+}
+.kak{
+    clip-path: circle();
+}
+.my-i{
+    color: var(--primary);
+    background: lightblue;
+    clip-path:circle() ;
+    padding: 5px;
+    width: 50px;
+}
+.my-i:hover{
+    color: white;
+}
+.my-card{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.my-card:hover{
+    transform: translateY(-10px);
+}
+.my-font{
+    color: var(--primary);
+}
+hr{
+     width: 15%;
+     height: 2px;
+     background-color: blue;
+}
+.not-{
+    text-decoration: line-through;
+}
+.dller{
+    font-size: 27px;
+    font-weight: 400;
+}
+.number{
+    font-size: 42px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+ul li{
+    letter-spacing: 1px;
+    line-height: 33px;
+}
+ul li:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.my-btn{
+    width: 40%;
+    border-radius:30px;
+    border: 2px solid rgb(34, 21, 207);
+}
+.m-top{
+    border-top: 2px solid blue !important;
+    width: 100%;
+}
+.my-accorinas{
+    margin-left: 13rem;
+    margin-top: 1rem;
+}
+.my-hover:hover{
+       color: var(--primary);
+}
+@media(max-width:700px){
+    .my-accorinas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 2px;
+    }
+}
+.my-flx{
+    display: flex;
+    gap: 6rem;
+}
+.my-flx input{
+    width: 133%;
+}
+.my-i-2{
+    color: var(--primary);
+    background: lightblue;
+    clip-path:circle() ;
+    padding: 15px;
+    width: 70px;
+}
+.my-i-2:hover{
+    color: white;
+} 
+.ms-auoo{
+    margin-left: 305px;
+    margin-top: 12px;
+}
+@media(max-width:700px){
+    .ms-auoo{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
+.znla li{
+    line-height: normal;
+}
+.znla li{
+    width: 100%;
+}
+.anll li{
+    line-height: normal;
+}
+.my-icon-2 {
+    color: white;
+    background: rgb(4, 179, 238);
+    clip-path:circle() ;
+    padding: 5px;
+    width: 50px;
+}
+.my-icon-2:hover{
+    color: white;
+}
+.mytt{
+    clip-path: circle();
+}
+.-auto{
+    margin-left: 15rem;
+}
+@media(max-width:700px){
+    .-auto{
+        margin: auto;
+    }
+}
